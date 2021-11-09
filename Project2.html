@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>2021 Climathon</title>
+		<title>2021 Data I/O</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -32,16 +32,16 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>Project 1: 2021 Climathon</h1>
+										<h1>Project 2: CHN Analytics Twitter Verification Challenge</h1>
 									</header>
 
-									<span class="image main"><img src="images/Climathon.png" alt="" /></span>
+									<span class="image main"><img src="images/CorrelationMatrix.png" alt="" /></span>
 
 									<h2> What I learned</h2>
-									<p>Before the climathon I had very minimal experience with Tableau. I was introduced to the software in a my club (BDAA) meeting. The problem that we had to solve wasn't easy. The Byrd Polar
-									   Research Center gave us a data set with 100,000 rows and about 30 parameters to visualize. It took a bit of time to for me to just upload the data into a workbook. When handling such a large data set, I learned that organization is of the utmost importance. At first, I had my data strewn about in different workbooks. Then, 
-									   after a bit of headscratching my team and I decided to clean the data and consolidate it into one file. The data was ready to go, but I needed to learn how to implement my vision in Tableau. The internet came in handy. I searched how to create a display data on a background image. The last major difficulty was making the visualization 
-									   interactive. My teammate and I painstakingly figured out how to make the timeline correlate to the data at all nine stations. There were no internet guides. We just clicked around until we stumbled upon the right button. It wasn't pretty, but we persevered.
+									<p>
+										Going into Data I/O I was shaky on my data cleaning and data manipulation skills. I recently learned how to use pandas and numpy. The event was the first time that I would put my newfound
+										skills to the test. They came in very handy. I was able to successfully clean Twitter data and perform thorough exploratory data analysis. After cleaning and manipulating the data I learned how to make a correlation matrix heat map using matplotlib.
+										I learned how go through text data (tweets) and identify keywords. My biggest takeaway from the event was the power of machine learning in data analysis. My teammate used a random forest model to identify the predictors of a verified user. Having little exposure to machine learning, I was amazed. I'm studying machine learning as soon as I can!
 									</p>
 									
 
@@ -50,18 +50,19 @@
 									<h2>Improvements</h2>
 									<p>
 										<ul>
-											<li> Correlating temperature with color at each station </li>
-											<li> Creating a dashboard showing plots for various time tables (ex. 1 month, 6 months, 1 year) </li>
-											<li> Creating visualizations for all parameters given (wind speed, humidity) </li>
+											<li> Creating a more comprehensive set of keywords to search for in tweets</li>
+											<li> Fine tuning the random forest model to improve accuracy</li>
+											<li> Being able to explain the results of the correlation matrix better </li>
+											<li> Creating more eye-catching visualizations (using more Tableau) </li>
 										</ul>   
 									</p>
 
 									<hr class="major" />
 
-									<h2>Link to Tableau Workbook</h2>
+									<h2>Link to Data I/O Presentation</h2>
 									
 									<p>
-										<a href="">2021 Climathon Tableau Workbook </a>
+										<a href="images/Data IO 2021.pdf" download="DataIOPresentation">Data I/O Presentation</a>
 									</p>
 
 									
@@ -85,53 +86,40 @@
 								</section>
 
 							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="generic.html">Generic</a></li>
-										<li><a href="elements.html">Elements</a></li>
-										<li>
-											<span class="opener">Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Etiam Dolore</a></li>
-										<li><a href="#">Adipiscing</a></li>
-										<li>
-											<span class="opener">Another Submenu</span>
-											<ul>
-												<li><a href="#">Lorem Dolor</a></li>
-												<li><a href="#">Ipsum Adipiscing</a></li>
-												<li><a href="#">Tempus Magna</a></li>
-												<li><a href="#">Feugiat Veroeros</a></li>
-											</ul>
-										</li>
-										<li><a href="#">Maximus Erat</a></li>
-										<li><a href="#">Sapien Mauris</a></li>
-										<li><a href="#">Amet Lacinia</a></li>
-									</ul>
-								</nav>
+							<nav id="menu">
+								<header class="major">
+									<h2>Menu</h2>
+								</header>
+								<ul>
+									<li><a href="index.html">Homepage</a></li>
+									<li><a href="generic.html">Generic</a></li>
+									<li><a href="elements.html">Elements</a></li>
+									<li>
+										<span class="opener">My Projects</span>
+										<ul>
+											<li><a href="Project1.html">Project 1</a></li>
+											<li><a href="Project2.html">Project 2</a></li>
+											<li><a href="Project3.html">Tempus Magna</a></li>
+											<li><a href="Project4.html">Feugiat Veroeros</a></li>
+										</ul>
+									</li>
+									
+								</ul>
+							</nav> 
 
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Ante interdum</h2>
+										<h2>Posts</h2>
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+											<a href="Project1.html" class="image"><img src="images/Climathon.png" alt="" /></a>
+											<p>My first hackathon: the 2021 OSU Climathon!</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+											<a href="Project2.html" class="image"><img src="images/CorrelationMatrix.png" alt="" /></a>
+											<p>2021 Data I/O Overall Project Winners!</p>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
